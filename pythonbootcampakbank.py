@@ -1,22 +1,3 @@
-#def pizzaci_giris():
-    #print("Kirveler Pizza'ya hosgeldiniz!")
-    
-#def pizzaci_cikis():
-    #print("Bizi tercih ettiğiniz için teşekkürler...")
-    
-    
-#pizza = ["Karışık pizza","Ton balıklı pizza","Acılı tavuk pizza","pizza margherita"]
-
-#metin.txt muhabbeti
-#open(r"C:\Users\omert\Desktop\pizza.txt","w")
-
-
-#pizza = open("pizza.txt", "r")
-#print(pizza.read())
-#hesap = 0
-#boy = input("Hangi boy olmasını istersiniz?(S=1,M=2,L=3)")
-#pizza_tabani =input("Pizzanız nasıl olsun?")
-#%%
 import pandas as pd
 
 class sepet:
@@ -199,7 +180,6 @@ writer.save()
 if  __name__ =='__main__':main()
 
 
-#%%
 
 
 
