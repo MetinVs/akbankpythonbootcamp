@@ -90,7 +90,7 @@ def main():
         
     class kecipeyniri(extra):
          def __init__(self, cost, name):
-             super().__init__(5,"keci peyniri")
+             super().__init__(10,"keci peyniri")
     class misir(extra):
          def __init__(self, cost, name):
              super().__init__(5,"misir" )
@@ -99,13 +99,13 @@ def main():
              super().__init__(5,"siyahzeytin")
     class mantarlar(extra):
          def __init__(self, cost, name):
-             super().__init__(5,"mantarlar")
+             super().__init__(8,"mantarlar")
     class et(extra):
          def __init__(self, cost, name):
-             super().__init__(5,"danaeti")
+             super().__init__(25,"danaeti")
     class sogan(extra):
          def __init__(self, cost, name):
-             super().__init__(5,"soganlar")
+             super().__init__(4,"soganlar")
          
     
     
@@ -120,7 +120,7 @@ def main():
         ekstrasecim = input()
         if (ekstrasecim == "1"):
             extram = kecipeyniri(cost, name)
-            extraToplam = 5
+            extraToplam = 10
         elif (ekstrasecim == "2"):
             extram = misir(cost,name)
             extraToplam = 5
@@ -132,10 +132,10 @@ def main():
             extraToplam = 5
         elif (ekstrasecim == "5"):
             extram = mantarlar(cost,name)
-            extraToplam = 5
+            extraToplam = 8
         elif (ekstrasecim == "6"):
             extram = et(cost,name)
-            extraToplam = 5            
+            extraToplam = 25            
         elif(secim == "0"):
             extraToplam = 0 
     
